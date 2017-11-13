@@ -1,0 +1,20 @@
+    @import "../valo/valo.scss";
+    @mixin colored {
+      @include valo;
+      
+      v-app {
+      	background-color: white;
+      }
+      
+      .v-label {
+      	color: grey;
+      	font-size: 200%;
+      }
+      
+      .tempLabel {
+      	font-weight: bold;
+      	font-size: 300%;
+      	color: black;
+      }
+    }
+    @include colored;

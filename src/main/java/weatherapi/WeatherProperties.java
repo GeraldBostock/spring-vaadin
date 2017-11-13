@@ -8,7 +8,15 @@ public class WeatherProperties {
 	private int id;
 	private String main;
 	private String description;
+	private String imageName;
+	private String icon;
 	
+	public String getIcon() {
+		return icon;
+	}
+	public void setIcon(String icon) {
+		this.icon = icon;
+	}
 	public int getId() {
 		return id;
 	}
@@ -25,8 +33,17 @@ public class WeatherProperties {
 		return description;
 	}
 	public void setDescription(String description) {
-		this.description = description;
+		this.description = description;	
 	}
+	
+	public void setImageName(String imageName){
+		this.imageName = imageName;
+	}
+	
+	public String getImageName(){
+		return this.imageName;
+	}
+	
 	@Override
 	public String toString() {
 		return "WeatherProperties [id=" + id + ", main=" + main

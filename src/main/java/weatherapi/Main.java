@@ -9,6 +9,7 @@ public class Main {
 	@JsonProperty("temp")
 	private int temp;
 	private int pressure;
+	private String name;
 	
 	public int getTemp() {
 		return temp;
