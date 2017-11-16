@@ -7,23 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import weatherapi.Weather;
 
-import com.vaadin.annotations.StyleSheet;
 import com.vaadin.annotations.Theme;
-import com.vaadin.event.MouseEvents.ClickEvent;
 import com.vaadin.icons.VaadinIcons;
-import com.vaadin.server.ClassResource;
-import com.vaadin.server.Resource;
-import com.vaadin.server.ThemeResource;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.spring.annotation.SpringUI;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Button.ClickListener;
-import com.vaadin.ui.Component;
-import com.vaadin.ui.Embedded;
 import com.vaadin.ui.HorizontalLayout;
-import com.vaadin.ui.Image;
 import com.vaadin.ui.Label;
-import com.vaadin.ui.Notification;
 import com.vaadin.ui.TextField;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
