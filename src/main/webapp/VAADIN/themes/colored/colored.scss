@@ -2,19 +2,20 @@
     @mixin colored {
       @include valo;
       
-      v-app {
-      	background-color: white;
-      }
-      
       .v-label {
       	color: grey;
-      	font-size: 200%;
+      	font-size: 150%;
       }
       
       .tempLabel {
       	font-weight: bold;
-      	font-size: 300%;
+      	font-size: 350%;
       	color: black;
+      }
+      
+      .errorLabel {
+      	color: red;
+      	font-size: 100%;
       }
     }
     @include colored;

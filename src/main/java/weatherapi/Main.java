@@ -9,7 +9,7 @@ public class Main {
 	@JsonProperty("temp")
 	private int temp;
 	private int pressure;
-	private String name;
+	private int humidity;
 	
 	public int getTemp() {
 		return temp;
@@ -23,6 +23,13 @@ public class Main {
 	public void setPressure(int pressure) {
 		this.pressure = pressure;
 	}
+	public int getHumidity() {
+		return humidity;
+	}
+	public void setHumidity(int humidity) {
+		this.humidity = humidity;
+	}
+	
 	@Override
 	public String toString() {
 		return "Main [temp=" + temp + ", pressure=" + pressure + "]";

@@ -8,7 +8,6 @@ public class WeatherProperties {
 	private int id;
 	private String main;
 	private String description;
-	private String imageName;
 	private String icon;
 	
 	public String getIcon() {
@@ -34,14 +33,6 @@ public class WeatherProperties {
 	}
 	public void setDescription(String description) {
 		this.description = description;	
-	}
-	
-	public void setImageName(String imageName){
-		this.imageName = imageName;
-	}
-	
-	public String getImageName(){
-		return this.imageName;
 	}
 	
 	@Override
