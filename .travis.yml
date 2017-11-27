@@ -1,6 +1,7 @@
 language: java
 jdk:
   - oraclejdk8
+repo_token: 9oMviYiQzl7bzqvnZFp0WrORYsJ3N9q3Q
 before_install:
   - chmod +x mvnw
 after_success:
