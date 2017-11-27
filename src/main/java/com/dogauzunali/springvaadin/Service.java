@@ -11,6 +11,7 @@ import org.springframework.web.client.RestTemplate;
 
 import weatherapi.Weather;
 
+@Test
 @Component
 public class Service {
 	
