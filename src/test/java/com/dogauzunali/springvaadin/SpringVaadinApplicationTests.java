@@ -1,4 +1,4 @@
-package com.example.springvaadin;
+package com.dogauzunali.springvaadin;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
