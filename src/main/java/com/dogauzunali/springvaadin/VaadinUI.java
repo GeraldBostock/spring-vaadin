@@ -38,8 +38,8 @@ public class VaadinUI extends UI{
 	private WeatherComponent component;
 	private List<Weather> weatherList = new ArrayList<Weather>();
 	int counter = 0;
-	Button next = new Button("next");
-	Button prev = new Button("previous");
+	Button next = new Button("Next");
+	Button prev = new Button("Previous");
 	
 	@Override
 	protected void init(VaadinRequest request) {
@@ -68,28 +68,6 @@ public class VaadinUI extends UI{
 				weatherList = service.getWeather(city.getValue());
 				
 				draw(weatherLayout);
-				/*weatherLayout.removeAllComponents();
-				
-				for(int i = counter; i < counter + 2; i++){
-					if( i < weatherList.size()){
-						component = new WeatherComponent(weatherList.get(i));
-						weatherLayout.addComponent(component.getLayout());
-					}	
-				}*/
-				/*if(weatherList == null){
-					searchVertical.addComponent(error);
-				}
-				else{
-					layout.removeAllComponents();
-					layout.addComponent(searchVertical);
-					for(Weather element : weatherList){
-						component = new WeatherComponent(element);
-						layout.addComponent(component.getLayout());
-					}
-					
-					searchVertical.removeComponent(error);
-					layout.addComponent(component.getLayout());
-				}*/
 			}
 		});
 		
